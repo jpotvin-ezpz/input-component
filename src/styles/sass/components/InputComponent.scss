@@ -1,0 +1,64 @@
+.inputComponent {
+  margin: 2rem;
+  &:hover {
+    input {
+      border: 1px solid #333;
+      &:disabled {
+        border: none;
+      }
+    }
+    label {
+      color: #333;
+    }
+  }
+}
+
+.classicLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: #333;
+  &:focus-within {
+    color: #2962ff;
+  }
+}
+
+.classicInput {
+  padding: 1rem;
+  width: min-content;
+  border-radius: 8px;
+  border: 1px solid darkgrey;
+  &:focus {
+    border-color: #2962ff;
+  }
+  &:disabled {
+    border: none;
+  }
+}
+// displayed states
+#hover input {
+  border-color: #333;
+}
+#focus input {
+  border-color: #2962ff;
+}
+#focus label {
+  color: #2962ff;
+}
+// Error Styles
+.error {
+  label {
+    color: red;
+    &:focus-within {
+      color: red;
+    }
+  }
+  input {
+    border-color: red;
+    &:focus {
+      border-color: red;
+    }
+  }
+}
+
+// Error shown states

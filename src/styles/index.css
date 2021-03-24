@@ -1,0 +1,66 @@
+.inputComponent {
+  margin: 2rem;
+}
+.inputComponent:hover input {
+  border: 1px solid #333;
+}
+.inputComponent:hover input:disabled {
+  border: none;
+}
+.inputComponent:hover label {
+  color: #333;
+}
+
+.classicLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: #333;
+}
+.classicLabel:focus-within {
+  color: #2962ff;
+}
+
+.classicInput {
+  padding: 1rem;
+  width: min-content;
+  border-radius: 8px;
+  border: 1px solid darkgrey;
+}
+.classicInput:focus {
+  border-color: #2962ff;
+}
+.classicInput:disabled {
+  border: none;
+}
+
+#hover input {
+  border-color: #333;
+}
+
+#focus input {
+  border-color: #2962ff;
+}
+
+#focus label {
+  color: #2962ff;
+}
+
+.error label {
+  color: red;
+}
+.error label:focus-within {
+  color: red;
+}
+.error input {
+  border-color: red;
+}
+.error input:focus {
+  border-color: red;
+}
+
+.showcase {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.css.map */

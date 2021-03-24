@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './styles/index.css';
+import InputComponent from './InputComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='showcase'>
+    <InputComponent  label='<Input />' id='default'/>
+    <InputComponent  label='&:hover' id='hover'/>
+    <InputComponent  label='&:focus' id='focus'/>
+    </div>
+    <InputComponent label='<Input error />' className='error'/>
+    <InputComponent placeholder='Disabled' label='<Input disabled /> ' disabled />
+    <div className='showcase'>
+      <InputComponent helperText='Some interesting text' label='<Input helperText="Some interesting text" />' />
+      <InputComponent helperText='Some interesting text' className='error' label='<Input helperText="Some interesting text" />' />
+    </div>
+    <div className='showcase'>
+      <InputComponent startIcon='call' />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
