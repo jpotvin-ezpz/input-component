@@ -34,6 +34,19 @@
   border: none;
 }
 
+.classicTextArea {
+  padding: 1rem;
+  width: min-content;
+  border-radius: 8px;
+  border: 1px solid darkgrey;
+}
+.classicTextArea:focus {
+  border-color: #2962ff;
+}
+.classicTextArea:disabled {
+  border: none;
+}
+
 #hover input {
   border-color: #333;
 }
@@ -57,6 +70,39 @@
 }
 .error input:focus {
   border-color: red;
+}
+
+.sm .classicInput {
+  padding: 0.5rem;
+}
+
+.fullwidth .classicInput {
+  width: 100%;
+}
+
+div.startIcon,
+div.endIcon {
+  position: relative;
+}
+
+span.startIcon {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 0.5rem;
+}
+
+input.startIcon {
+  padding-left: 2.2rem;
+}
+
+span.endIcon {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 0.5rem;
+}
+
+input.endIcon {
+  padding-right: 2.2rem;
 }
 
 .showcase {
