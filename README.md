@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://peaceful-grade.surge.sh/}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/jpotvin-ezpz/input-component/">
       Solution
     </a>
     <span> | </span>
@@ -37,14 +37,10 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/jpotvin-ezpz/input-component/blob/main/Screenshot_2021-03-24%20React%20App.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+The challenge here was to create a reusable react component that could be rendered differently based on what props were passed to it.
+I was stumped for quite awhile on this one until I realized I was overthinking it and all that was really needed was to style classes and create a few conditional statements to deal with multiline or the addition of icons.
 
 ### Built With
 
@@ -95,6 +91,7 @@ $ npm start
 
 - [Net Ninja](https://www.thenetninja.co.uk/)
 - [Thu Nghiem](https://www.youtube.com/channel/UCmSmLukBF--YrKZ2g4akYAQ)
+- [Material Icons](https://material.io/)
 
 ## Contact
 
