@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://peaceful-grade.surge.sh/}">
+    <a href="https://peaceful-grade.surge.sh/">
       Demo
     </a>
     <span> | </span>
